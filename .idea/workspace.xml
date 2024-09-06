@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/BeefBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/BeefBurgerRestaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/VeggieBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/VeggieBurgerRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="DesignPatterns" />
@@ -58,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.creationalpattern.factory.MainApplication" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.creationalpattern.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApplication" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

@@ -16,7 +16,7 @@ public class Singleton {
         //Everytime we try to access this variable instance, we need to read it directly from main memory, so to, access it twice
         //Avoid that we create local instance and store it there, method overall performance by 40%
         Singleton result = instance;
-        if (instance == null) { 
+        if (instance == null) {
             synchronized (Singleton.class) {
                 if (result == null)
                     //A shared variable stored in memory can reference partially constructed object other threads consider it as initialized and use it
@@ -30,6 +30,6 @@ public class Singleton {
     //Double check locking
     //Singleton disables all means of creating objects of a class except for special static creation method.
     //returns existing instance if it has been already created
-    //Should be used when class has single instance available
+    //Should be used when class has single instance available, adapted to handle multiple threads
 
 }

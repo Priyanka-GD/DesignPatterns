@@ -1,4 +1,4 @@
-package org.example.creationalpattern.factory;
+package design.pattern.creational.factory;
 //Client
 public abstract class Restaurant {
     public Burger orderBurger() {

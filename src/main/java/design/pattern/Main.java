@@ -1,4 +1,4 @@
-package org.example;
+package design.pattern;
 
 public class Main {
     //JVM searches for main method- treats it as a point of execution

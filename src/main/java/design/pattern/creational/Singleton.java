@@ -1,4 +1,4 @@
-package org.example.creationalpattern;
+package design.pattern.creational;
 
 public class Singleton {
     private static volatile Singleton instance;

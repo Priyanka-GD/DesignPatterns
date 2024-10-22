@@ -1,4 +1,4 @@
-package org.example.creationalpattern.factory;
+package design.pattern.creational.factory;
 
 public interface Burger {
     void prepare();

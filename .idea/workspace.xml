@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="" />
+    <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/BeefBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/BeefBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/BeefBurgerRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/BeefBurgerRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/VeggieBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VeggieBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalpattern/factory/VeggieBurgerRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VeggieBurgerRestaurant.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +43,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2lhq7OtWZYPhtYZHaYNS9NU3siu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,42 +56,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/priyanka/Desktop/Projects/DesignPatterns/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainApplication">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.creationalpattern.factory.MainApplication" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.creationalpattern.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,8 +83,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725642489358</updated>
+      <workItem from="1729616278095" duration="200000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

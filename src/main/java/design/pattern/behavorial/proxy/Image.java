@@ -1,4 +1,4 @@
-package design.pattern.behavorial;
+package design.pattern.behavorial.proxy;
 
 public interface Image {
     void display ();

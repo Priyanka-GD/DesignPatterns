@@ -6,6 +6,5 @@ public abstract class Restaurant {
         burger.prepare();
         return burger;
     }
-
     public abstract Burger createBurger();
 }

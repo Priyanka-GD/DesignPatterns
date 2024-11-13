@@ -1,8 +1,7 @@
-package design.pattern.creational.prototype;
+package design.pattern.creational.prototype.config;
 
 public interface Configuration {
     String getProperty (String key);
-
     void setProperty (String key, String value);
 }
 

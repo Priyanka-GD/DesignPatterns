@@ -1,4 +1,4 @@
-package design.pattern.creational.prototype;
+package design.pattern.creational.prototype.config;
 
 public class PrototypeExample {
     public static void main(String[] args) {

@@ -25,6 +25,19 @@ The high-resolution image only loads when the user scrolls to it, improving appl
 This approach provides a smoother user experience while reducing unnecessary memory and CPU usage.
 
 
+#### Observer Design Pattern
+
+Let’s understand the observer design pattern through a real-world example:
+
+Imagine a scenario where a weather station is observed by various smart devices. 
+The weather station maintains a list of registered devices. 
+Weather Station will update all the devices whenever there is change in the weather.
+
+Each of the devices are concrete observers and each have their ways to interpret and display the information.
+The Observer Design Pattern provides a flexible and scalable system where adding new devices or weather stations 
+doesn’t disrupt the overall communication, providing real-time and location-specific weather updates to users.
+
+
 ### Creational Design Pattern
 
 #### Prototype Design Pattern

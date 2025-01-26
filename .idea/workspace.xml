@@ -47,6 +47,7 @@
     "Application.DocumentPrototype.executor": "Run",
     "Application.PizzaMain.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
+    "Application.ProxyPatternExample.executor": "Run",
     "Application.WeatherApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PizzaMain">
+  <component name="RunManager" selected="Application.ProxyPatternExample">
     <configuration name="DocumentPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.document.DocumentPrototype" />
       <module name="DesignPatterns" />
@@ -106,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.pattern.structural.proxy.ProxyPatternExample" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.pattern.structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.behavorial.proxy.observer.WeatherApp" />
       <module name="DesignPatterns" />
@@ -121,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyPatternExample" />
         <item itemvalue="Application.PizzaMain" />
         <item itemvalue="Application.WeatherApp" />
         <item itemvalue="Application.DocumentPrototype" />

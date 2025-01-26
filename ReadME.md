@@ -77,3 +77,25 @@ to encapsulate these steps:
   Using a Virtual Proxy pattern solves this by initially loading lightweight placeholders instead of the full images.
   The high-resolution image only loads when the user scrolls to it, improving application responsiveness and optimizing resource use.
   This approach provides a smoother user experience while reducing unnecessary memory and CPU usage.
+OR
+- The Proxy design pattern provides a surrogate or placeholder for another object to control access to it. 
+- It is used when direct access to an object is costly, complex, or needs to be controlled.
+-  A real-time example is a bank account accessed through a credit or debit card. 
+- The actual bank account holds the money, but the card acts as a proxy. 
+- When a customer uses the card, the transaction goes through the card network (the proxy), 
+- which verifies the available funds and authorizes the transaction before debiting the actual
+- bank account. The customer interacts with the proxy (card), not directly with the bank account.
+
+#### Adapter Design Pattern
+
+One structural design pattern that enables the usage of an existing class’s interface 
+as an additional interface is the adapter design pattern. To make two incompatible 
+interfaces function together, it serves as a bridge. This pattern involves a single class, 
+the adapter, responsible for joining functionalities of independent or incompatible interfaces.
+Let’s consider a scenario where we have an existing system that uses a 
+LegacyPrinter class with a method named printDocument() which we want to adapt into a 
+new system that expects a Printer interface with a method named print(). 
+We’ll use the Adapter design pattern to make these two interfaces compatible.
+
+
+

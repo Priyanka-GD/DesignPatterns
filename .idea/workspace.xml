@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DocumentPrototype.executor": "Run",
+    "Application.PizzaMain.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
     "Application.WeatherApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -65,13 +66,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WeatherApp">
+  <component name="RunManager" selected="Application.PizzaMain">
     <configuration name="DocumentPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.document.DocumentPrototype" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="design.pattern.creational.prototype.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.pattern.structural.decorator.PizzaMain" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.pattern.structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaMain" />
         <item itemvalue="Application.WeatherApp" />
         <item itemvalue="Application.DocumentPrototype" />
         <item itemvalue="Application.PrototypeExample" />

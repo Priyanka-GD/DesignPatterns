@@ -48,4 +48,16 @@ Creating several config files could be error-prone, if they share common propert
 So creating one and cloning that one across multiple environment is an efficient solution.
 Promotes code re-use
 
+### Structural Design Pattern
 
+#### Decorator Design Pattern
+
+The Decorator design pattern is a structural pattern that allows adding new functionalities 
+to an object dynamically without altering its structure. It involves a set of decorator 
+classes that wrap concrete components, providing additional behavior while maintaining 
+the same interface.
+Real-time example: Pizza customization
+Consider a pizza ordering system where customers can customize their pizzas with various 
+toppings. The base pizza can be decorated with toppings like cheese, pepperoni, 
+mushrooms, and olives. Each topping is a decorator that adds its specific 
+functionality (cost, description) to the base pizza. 

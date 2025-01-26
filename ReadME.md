@@ -61,3 +61,20 @@ Consider a pizza ordering system where customers can customize their pizzas with
 toppings. The base pizza can be decorated with toppings like cheese, pepperoni, 
 mushrooms, and olives. Each topping is a decorator that adds its specific 
 functionality (cost, description) to the base pizza. 
+
+
+#### Facade Design Pattern
+
+The Facade design pattern provides a simplified interface to a complex subsystem.
+It involves creating a facade class, which acts as a single entry point for clients 
+to interact with the underlying system, hiding its internal complexity.
+Real-time Example: Online Shopping Order Processing
+Consider an online shopping system where placing an order involves multiple steps: 
+Checking product availability in the inventory, 
+Processing payment, 
+Arranging shipment, and 
+Sending a confirmation email.
+Without the Facade pattern, the client (e.g., the user interface or another module) 
+would need to interact with each of these subsystems directly, leading to complex and 
+tightly coupled code. Using the Facade pattern, a OrderFacade class can be created 
+to encapsulate these steps:

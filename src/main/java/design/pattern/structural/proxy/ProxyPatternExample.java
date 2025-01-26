@@ -1,4 +1,4 @@
-package design.pattern.behavorial.proxy;
+package design.pattern.structural.proxy;
 
 public class ProxyPatternExample {
     public static void main (String[] args) {

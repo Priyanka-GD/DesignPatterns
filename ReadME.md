@@ -10,21 +10,6 @@ https://refactoring.guru/design-patterns
 
 ### Behavorial Design Pattern
 
-#### Proxy Design Pattern
-
-- Lazy Loading: This technique defers the creation of an expensive object until it's actually needed. 
-In this case, the RealImage object is only loaded from disk when it's displayed.
-- Proxy Class: A proxy class acts as a placeholder for the real object. It provides the same interface 
-but delegates the actual work to the real object when necessary.
-- Access Control: Proxies can be used to implement security policies by checking authentication before allowing access to the real object.
-- Caching: Proxies can cache frequently used data to improve performance.
-- Logging and Monitoring: Proxies can be a convenient place to add logging and monitoring code to track usage and identify potential issues.
-- Example: In applications like image galleries, loading all high-resolution images at once can slow performance and waste memory. 
-Using a Virtual Proxy pattern solves this by initially loading lightweight placeholders instead of the full images. 
-The high-resolution image only loads when the user scrolls to it, improving application responsiveness and optimizing resource use. 
-This approach provides a smoother user experience while reducing unnecessary memory and CPU usage.
-
-
 #### Observer Design Pattern
 
 Let’s understand the observer design pattern through a real-world example:
@@ -78,3 +63,17 @@ Without the Facade pattern, the client (e.g., the user interface or another modu
 would need to interact with each of these subsystems directly, leading to complex and 
 tightly coupled code. Using the Facade pattern, a OrderFacade class can be created 
 to encapsulate these steps:
+
+#### Proxy Design Pattern
+
+- Lazy Loading: This technique defers the creation of an expensive object until it's actually needed.
+  In this case, the RealImage object is only loaded from disk when it's displayed.
+- Proxy Class: A proxy class acts as a placeholder for the real object. It provides the same interface
+  but delegates the actual work to the real object when necessary.
+- Access Control: Proxies can be used to implement security policies by checking authentication before allowing access to the real object.
+- Caching: Proxies can cache frequently used data to improve performance.
+- Logging and Monitoring: Proxies can be a convenient place to add logging and monitoring code to track usage and identify potential issues.
+- Example: In applications like image galleries, loading all high-resolution images at once can slow performance and waste memory.
+  Using a Virtual Proxy pattern solves this by initially loading lightweight placeholders instead of the full images.
+  The high-resolution image only loads when the user scrolls to it, improving application responsiveness and optimizing resource use.
+  This approach provides a smoother user experience while reducing unnecessary memory and CPU usage.

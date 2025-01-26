@@ -1,4 +1,4 @@
-package design.pattern.behavorial.proxy.observer;
+package design.pattern.behavorial.observer;
 
 import java.util.ArrayList;
 import java.util.List;

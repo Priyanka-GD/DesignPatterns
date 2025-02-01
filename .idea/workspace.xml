@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     "Application.PizzaMain.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
     "Application.ProxyPatternExample.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.WeatherApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProxyPatternExample">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="DocumentPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.document.DocumentPrototype" />
       <module name="DesignPatterns" />
@@ -94,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.config.PrototypeExample" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design.pattern.creational.prototype.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProxyPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.structural.proxy.ProxyPatternExample" />
       <module name="DesignPatterns" />
@@ -116,6 +103,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="DesignPatterns" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ProxyPatternExample" />
         <item itemvalue="Application.PizzaMain" />
         <item itemvalue="Application.WeatherApp" />
         <item itemvalue="Application.DocumentPrototype" />
-        <item itemvalue="Application.PrototypeExample" />
       </list>
     </recent_temporary>
   </component>

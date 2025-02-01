@@ -7,10 +7,9 @@ https://www.geeksforgeeks.org/software-design-patterns/?ref=shm
 https://refactoring.guru/design-patterns
 
 
+### Behavioral Design Pattern
 
-### Behavorial Design Pattern
-
-#### Observer Design Pattern
+#### Observer
 
 Let’s understand the observer design pattern through a real-world example:
 
@@ -25,7 +24,7 @@ doesn’t disrupt the overall communication, providing real-time and location-sp
 
 ### Creational Design Pattern
 
-#### Prototype Design Pattern
+#### Prototype 
 
 A mechanism to create a new object by copying an existing object. 
 qzOne common use case - managing configuration files for various environment.
@@ -35,7 +34,7 @@ Promotes code re-use
 
 ### Structural Design Pattern
 
-#### Decorator Design Pattern
+#### Decorator
 
 The Decorator design pattern is a structural pattern that allows adding new functionalities 
 to an object dynamically without altering its structure. It involves a set of decorator 
@@ -48,7 +47,7 @@ mushrooms, and olives. Each topping is a decorator that adds its specific
 functionality (cost, description) to the base pizza. 
 
 
-#### Facade Design Pattern
+#### Facade
 
 The Facade design pattern provides a simplified interface to a complex subsystem.
 It involves creating a facade class, which acts as a single entry point for clients 
@@ -64,7 +63,7 @@ would need to interact with each of these subsystems directly, leading to comple
 tightly coupled code. Using the Facade pattern, a OrderFacade class can be created 
 to encapsulate these steps:
 
-#### Proxy Design Pattern
+#### Proxy 
 
 - Lazy Loading: This technique defers the creation of an expensive object until it's actually needed.
   In this case, the RealImage object is only loaded from disk when it's displayed.
@@ -86,7 +85,7 @@ OR
 - which verifies the available funds and authorizes the transaction before debiting the actual
 - bank account. The customer interacts with the proxy (card), not directly with the bank account.
 
-#### Adapter Design Pattern
+#### Adapter 
 
 One structural design pattern that enables the usage of an existing class’s interface 
 as an additional interface is the adapter design pattern. To make two incompatible 

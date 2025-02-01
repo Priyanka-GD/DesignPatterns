@@ -32,6 +32,26 @@ Creating several config files could be error-prone, if they share common propert
 So creating one and cloning that one across multiple environment is an efficient solution.
 Promotes code re-use
 
+#### Abstract Factory
+
+Abstract Factory Pattern in Java
+The Abstract Factory Pattern is a creational design pattern that provides an interface 
+for creating families of related or dependent objects without specifying their concrete classes. 
+It is useful when a system needs to be independent of how its objects are created.
+
+When to Use Abstract Factory Pattern?
+✅ When multiple families of related objects are required.
+✅ When the exact types of objects to be created need to be determined at runtime.
+✅ When the system needs to follow Open/Closed Principle (open for extension, closed for modification).
+
+#### Builder
+
+The Builder pattern is a creational design pattern that separates the construction of a complex object from its representation, 
+allowing the same construction process to create different representations. 
+It is particularly useful when an object has many optional parameters or dependencies.
+ets you construct complex objects step by step. The pattern allows you to produce 
+different types and representations of an object using the same construction code.
+
 ### Structural Design Pattern
 
 #### Decorator

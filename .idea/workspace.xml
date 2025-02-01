@@ -43,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractFactoryDemo.executor": "Run",
     "Application.DocumentPrototype.executor": "Run",
     "Application.PizzaMain.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
@@ -67,13 +68,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DocumentPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.document.DocumentPrototype" />
+  <component name="RunManager" selected="Application.AbstractFactoryDemo">
+    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.pattern.creational.abstractfactory.AbstractFactoryDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.pattern.creational.prototype.document.*" />
+          <option name="PATTERN" value="design.pattern.creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ProxyPatternExample" />
         <item itemvalue="Application.PizzaMain" />
         <item itemvalue="Application.WeatherApp" />
-        <item itemvalue="Application.DocumentPrototype" />
       </list>
     </recent_temporary>
   </component>

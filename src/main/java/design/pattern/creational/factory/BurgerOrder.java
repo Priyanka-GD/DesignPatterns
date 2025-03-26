@@ -1,6 +1,6 @@
 package design.pattern.creational.factory;
 
-public class MainApplication {
+public class BurgerOrder {
     public static void main(String[] args) {
         Restaurant beefRestaurant = new BeefBurgerRestaurant();
         Burger beefBurger = beefRestaurant.orderBurger();

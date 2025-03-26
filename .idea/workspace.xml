@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/BeefBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/BeefBurgerRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/BurgerOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VeggieBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/creational/factory/VeggieBurgerRestaurant.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +53,7 @@
   "keyToString": {
     "Application.AbstractFactoryDemo.executor": "Run",
     "Application.DocumentPrototype.executor": "Run",
+    "Application.NotificationFactory.executor": "Run",
     "Application.PizzaMain.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
     "Application.ProxyPatternExample.executor": "Run",
@@ -55,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/priyanka/Desktop/Projects/DesignPatterns",
+    "last_opened_file_path": "/Users/priyanka/Desktop/Projects/DesignPatterns/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,13 +77,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AbstractFactoryDemo">
+  <component name="RunManager" selected="Application.PrototypeExample">
     <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="design.pattern.creational.abstractfactory.AbstractFactoryDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="design.pattern.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.pattern.creational.factory.NotificationFactory" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.pattern.creational.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.pattern.structural.proxy.ProxyPatternExample" />
+    <configuration name="PrototypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.pattern.creational.prototype.config.PrototypeExample" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.pattern.structural.proxy.*" />
+          <option name="PATTERN" value="design.pattern.creational.prototype.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,35 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.pattern.behavorial.proxy.observer.WeatherApp" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="design.pattern.behavorial.proxy.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeExample" />
+        <item itemvalue="Application.NotificationFactory" />
+        <item itemvalue="Application.PizzaMain" />
         <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ProxyPatternExample" />
-        <item itemvalue="Application.PizzaMain" />
-        <item itemvalue="Application.WeatherApp" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -170,16 +172,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/design/pattern/structural/facade/OrderFacade.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

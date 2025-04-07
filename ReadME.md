@@ -21,6 +21,17 @@ Each of the devices are concrete observers and each have their ways to interpret
 The Observer Design Pattern provides a flexible and scalable system where adding new devices or weather stations 
 doesn’t disrupt the overall communication, providing real-time and location-specific weather updates to users.
 
+#### Strategy
+
+Strategy is a behavioral design pattern that turns a set of behaviors into objects and makes them interchangeable 
+inside original context object.
+
+The original object, called context, holds a reference to a strategy object. 
+The context delegates executing the behavior to the linked strategy object. 
+In order to change the way the context performs its work, other objects may replace the currently 
+linked strategy object with another one.
+
+
 
 ### Creational Design Pattern
 

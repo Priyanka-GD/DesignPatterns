@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69187bdc-4a27-4d2a-88e2-61a4327a2eeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/observer/strategy/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/observer/strategy/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/observer/strategy/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/observer/strategy/StrategyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/StrategyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design/pattern/behavorial/strategy/StrategyDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

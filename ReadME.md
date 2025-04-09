@@ -2,8 +2,6 @@
 ## Design Patterns
 Reference :
 
-https://www.geeksforgeeks.org/software-design-patterns/?ref=shm
-
 https://refactoring.guru/design-patterns
 
 

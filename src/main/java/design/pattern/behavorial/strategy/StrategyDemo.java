@@ -1,4 +1,4 @@
-package design.pattern.behavorial.observer.strategy;
+package design.pattern.behavorial.strategy;
 
 import java.io.IOException;
 import java.util.HashMap;
